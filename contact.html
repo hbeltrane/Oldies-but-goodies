@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+		<title>Oldies But Goodies</title>
+	</head>
+	<body>
+		<nav>
+			<img id="logo" src="img/logo.jpg">
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="inventory.html">Inventory</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<header id="banner">
+			<h1>Contact</h1>
+		</header>
+		<hr>
+		<main class="info">
+			<div>
+				<div class="contact-small-left">
+					<h2>Email</h2>
+					<hr>
+					<p class="contact"><a href="mailto:contact@contact.com">contact@obgs.com</a></p>
+				</div>
+				<div class="contact-small-right">
+					<h2>Phone</h2>
+					<hr>
+					<p class="contact"><a href="tel:+14168876247">416-887-OBGS</a></p>
+				</div>
+			</div>
+			<div class="contact-large">
+				<hr>
+				<h2>Contact us</h2>
+				<hr>
+				<form name="contact" action="thankyou.html">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name">
+					<label for="phone">Phone:</label>
+					<input type="text" name="phone" id="phone">
+					<label for="email">E-mail:</label>
+					<input type="text" name="email" id="email">
+					<p class="form-info">What kind of information would you like to receive?</p>
+					<ul>
+						<li><input type="checkbox" name="info-rental" id="info-rental" value="info-rental" class="form-selection">Rentals</li>
+						<li><input type="checkbox" name="info-leasing" id="info-leasing" value="info-leasing" class="form-selection">Leasing</li>
+						<li><input type="checkbox" name="info-purchase" id="info-purchase" value="info-purchase" class="form-selection">Purchase</li>
+						<li><input type="checkbox" name="info-inventory" id="info-inventory" value="info-inventory" class="form-selection">Current inventory</li>
+						<li><input type="checkbox" name="info-projects" id="info-projects" value="info-projects" class="form-selection">Current projects</li>
+						<li><input type="checkbox" name="info-restoration" id="info-restoration" value="info-restoration" class="form-selection">New project</li>
+						<li><input type="checkbox" name="info-restoration" id="info-restoration" value="info-restoration" class="form-selection">Book a visit</li>
+						<li><input type="checkbox" name="info-restoration" id="info-restoration" value="info-restoration" class="form-selection">Other</li>
+					</ul>
+					<label for="comments">Comments:</label>
+					<textarea name="comments" id="comments"></textarea>
+					<input type="submit" value="Submit" id="submit">
+					<input type="reset" value="Reset" id="reset">
+				</form>
+			</div>
+			<div class="contact-large">
+				<hr>
+				<h2>Location</h2>
+				<hr>
+				<picture>
+					<source srcset="img/map_1800.jpg" media="(min-width: 1280px)">
+					<source srcset="img/map_1000.jpg" media="(min-width: 768px)">
+					<img id="map" src="img/map_500.jpg" alt="3040 Splendour Pl">
+				</picture>
+				<p class="contact">3040 Splendour Pl<br>Mississauga, ON</p>
+			</div>
+			<div class="contact-large">
+				<hr>
+				<h2>Schedule</h2>
+				<hr>
+				<table>
+					<caption>Join us in our scheduled events, please contact us for specific event information.</caption>
+					<tr>
+						<th></th>
+						<th>Sunday</th>
+						<th>Monday</th>
+						<th>Tuesday</th>
+						<th>Wednesday</th>
+						<th>Thursday</th>
+						<th>Friday</th>
+						<th>Saturday</th>
+					</tr>
+					<tr>
+						<td>09:00</td>
+						<td rowspan="3" class="sch-open">Racing showoff</td>
+						<td rowspan="3" class="sch-open">Test drives</td>
+						<td rowspan="3" class="sch-open">Free entrance</td>
+						<td rowspan="3" class="sch-open">Test drives</td>
+						<td rowspan="3" class="sch-open">Free entrance</td>
+						<td rowspan="3" class="sch-open">Test drives</td>
+						<td rowspan="3" class="sch-open">Meet the racers</td>
+					</tr>
+					<tr>
+						<td>10:00</td>
+					</tr>
+					<tr>
+						<td>11:00</td>
+					</tr>
+					<tr>
+						<td>12:00</td>
+						<td rowspan="5" class="sch-closed">Closed</td>
+						<td rowspan="2" class="sch-closed">Closed</td>
+						<td rowspan="2" class="sch-closed">Closed</td>
+						<td rowspan="2" class="sch-closed">Closed</td>
+						<td rowspan="2" class="sch-closed">Closed</td>
+						<td rowspan="2" class="sch-closed">Closed</td>
+						<td rowspan="5" class="sch-closed">Closed</td>
+					</tr>
+					<tr>
+						<td>13:00</td>
+					</tr>
+					<tr>
+						<td>13:00</td>
+						<td rowspan="3" class="sch-open">Test drives</td>
+						<td rowspan="3" class="sch-open">Workshop</td>
+						<td rowspan="3" class="sch-open">Test drives</td>
+						<td rowspan="3" class="sch-open">Workshop</td>
+						<td rowspan="3" class="sch-open">Test drives</td>
+					</tr>
+					<tr>
+						<td>13:00</td>
+					</tr>
+					<tr>
+						<td>13:00</td>
+					</tr>
+				</table>
+			</div>
+		</main>
+		<hr>
+		<footer>
+			<h6>Copyright 2022</h6>
+		</footer>
+	</body>
+</html>
